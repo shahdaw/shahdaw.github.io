@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="jsfile.js"></script>
+<link rel="stylesheet" href="shahd.css">
+
+</head>
+
+<body>
+
+<h1>Contact Me</h1>
+<form name="form1">
+  <label for="fname">Subject*</label>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <br>
+
+  <label for="lname">Email*</label>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <br>
+
+  <label for="ename">ID*</label>
+     &nbsp;&nbsp;&nbsp;<input type="text" id="ename" name="ename" value=""><br>
+  <br>
+
+  <label for="cname">URL*</label>
+    &nbsp;<input type="text" id="cname" name="cname" value=""><br>
+  <br>
+
+  <label for="sname">Message*</label>
+   <textarea name="sname" rows="5" cols="30"></textarea><br>
+  <br>
+
+  <input type="submit" value="Submit" onclick=" test()">
+
+</form>
+
+<footer>
+
+  <p>@Copy Right 2020</p>
+
+</footer>
+<a href="index.html"> see my another html page</a>
+
+</body>
+
+</html>
